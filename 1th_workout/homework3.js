@@ -15,7 +15,7 @@ offlineMembers.forEach((colfumies, index) => {
 })
 console.log(team);
 */
-var colfumies = require('./1th_homework2');
+var colfumies = require('./homework2');
 
 const noShowMembers = ["홍지윤", "서호영"];
 
