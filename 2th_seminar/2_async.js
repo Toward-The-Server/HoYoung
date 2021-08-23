@@ -1,5 +1,17 @@
+//@ 1. 비동기식 Callback 함수
+//* 자바스크립트 함수는 일급객체 --> 다른 함수의 인자 o, 반환값 o, 변수에 할당 o
+
+console.log('Hoyoung');
+
+setTimeout(function(){
+  console.log('I waited for 3 seconds');
+}, 3000)
+
+console.log('Server')
+
+
 //! callback Hell - 가독성⇣, 실수 ↑ -> 유지보수 난이도 상승
-/*
+
 function cook(callback, timeout){
   setTimeout(callback,timeout);
 }
@@ -18,6 +30,3 @@ cook(function () {
     }, 2000);
   }, 1000);  
 }, 0);
-*/
-
-//@ Promise - 비동기 시점을 표현하여 비동기 처리에 용이(ES6부터)
