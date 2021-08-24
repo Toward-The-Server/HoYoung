@@ -84,7 +84,7 @@ ramenRecipe()
   .then(progress => console.log(progress))
 */
 //@ promise Chaining 사용 3번
-//? 제일 간단하다..
+//? 제일 간단하다.. 근데 이해하기 어렵다..
 /*
 ramenRecipe()
   .then(boilWater)
