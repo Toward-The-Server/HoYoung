@@ -1,4 +1,4 @@
-const cal_module = require('./calculator');
+const cal_module = require('./b_calculator');
 
 console.log(cal_module.add(10, 6));
 console.log(cal_module.subtract(10, 6));

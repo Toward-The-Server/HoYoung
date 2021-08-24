@@ -1,4 +1,4 @@
-const members = require('./member')
+const members = require('./a_member')
 function getFemale(members) {
   return new Promise(function (resolve, reject) {
     setTimeout(function () {
