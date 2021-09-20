@@ -8,7 +8,7 @@ var arr2 = new Array(1,2,3,4,5);
 console.log(arr2);
 console.log(typeof arr2);
 
-var arr3 = ['최영훈', 1, 2, 3, null, {name: 'yh', age: 26}]; //@ array안에 string, number, null자료형 그리고 객체도 올 수 있음.
+var arr3 = ['최영훈', 1, 2, 3, null, {name: 'yh', age: 26}]; //@ array안에 string, number, null 자료형 그리고 객체도 올 수 있음.
 console.log(arr3);
 console.log(typeof arr3);
 
